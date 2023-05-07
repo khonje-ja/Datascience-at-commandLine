@@ -1,0 +1,34 @@
+bookdown::bs4_book:
+  template: "template.html"
+  twitter-handle: jeroenhjanssens
+  css: dsatcl2e.css
+  split_bib: no
+  keep_md: yes
+  includes:
+    in_header: [favicon.html, google_analytics.html]
+  pandoc_args:
+    - --filter
+    - bin/pygments-filter.py
+    - --csl
+    - chicago-fullnote-bibliography.csl
+  repo:
+    base: https://github.com/jeroenjanssens/data-science-at-the-command-line
+    branch: master
+    subdir: book/2e
+    icon: ""
+  theme:
+    primary: "#0369a1"
+    base_font:
+      google:
+        family: Source Sans Pro
+        wght: [400, 600]
+        ital: [0, 1]
+    heading_font:
+      google:
+        family: Source Sans Pro
+        wght: 600
+    code_font:
+      google:
+        family: Fira Mono
+        wght: [400, 600]
+        local: false

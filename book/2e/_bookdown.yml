@@ -1,0 +1,29 @@
+book_filename: "book"
+repo: https://github.com/jeroenjanssens/data-science-at-the-command-line
+output_dir: "output"
+link-citations: true
+language:
+  ui:
+    chapter_name: "Chapter "
+    edit: "Edit"
+view: https://github.com/jeroenjanssens/data-science-at-the-command-line/blob/master/book/2e/%s
+edit: https://github.com/jeroenjanssens/data-science-at-the-command-line/edit/master/book/2e/%s
+new_session: true
+before_chapter_script: "_console_start.R"
+after_chapter_script: "_console_exit.R"
+rmd_files:
+  - index.Rmd
+  - foreword.Rmd
+  - preface.Rmd
+  - 01.Rmd
+  - 02.Rmd
+  - 03.Rmd
+  - 04.Rmd
+  - 05.Rmd
+  - 06.Rmd
+  - 07.Rmd
+  - 08.Rmd
+  - 09.Rmd
+  - 10.Rmd
+  - 11.Rmd
+  - tools.Rmd
